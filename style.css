@@ -11,7 +11,8 @@ body {
   justify-content: space-between;
   padding: 40px;
   background: linear-gradient(135deg, #2c3e50, #4b79a1);
-  color: #f0f0f0;
+  background-image: url(images/herosection\ background.jpg);
+  color: #213ebd;
   height: 25vh;
 }
 
@@ -26,9 +27,10 @@ body {
 }
 
 .hero-text p {
+  font-weight: 700;
   font-size: 1.2rem;
   margin-bottom: 30px;
-  color: #dcdcdc;
+  color: #ffffff;
 }
 
 .hero-text button {
@@ -73,4 +75,38 @@ body {
   .hero-text h1 {
     font-size: 2.2rem;
   }
+}
+
+
+.container div{
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 30px;
+  height: 200px;
+  width: 250px;
+  background: linear-gradient(135deg, #4facfe, #9cd41b, #4facfe);
+}
+
+.container div:hover{
+  transform: scale(1.05);
+  transition: transform 0.8s ease-in-out;
+  background: linear-gradient(135deg, #9cd41b, #4facfe, #9cd41b);
+}
+
+.container div h1{
+  font-size: 2rem;
+  font-size: larger;
+  letter-spacing: normal;
+  color: brown;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
 }
