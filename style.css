@@ -12,6 +12,8 @@ body {
   padding: 40px;
   background: linear-gradient(135deg, #2c3e50, #4b79a1);
   background-image: url(images/herosection\ background.jpg);
+  background-image: no-repeat;
+  background-size: cover;
   color: #213ebd;
   height: 50vh;
 }
